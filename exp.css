@@ -1,0 +1,403 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  height: 100px;
+  background-color: rgb(6, 6, 82);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.p1 {
+  font-weight: 400;
+  font-size: small;
+}
+
+.al {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+nav {
+  height: 50px;
+  background-color: #65b5a8;
+  padding-left: 150px;
+  /* Space on the left */
+  padding-right: 150px;
+  /* Space on the right */
+
+}
+
+.imglogo {
+  height: 60px;
+  width: 100px;
+  /* Increased width of the logo */
+  margin-left: 50px;
+
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  width: 50%;
+  gap: 30px;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: bold;
+  
+}
+
+.nav-link:hover {
+  color: greenyellow !important;
+  /* Green hover effect */
+}
+
+.nav-btn{
+  background-color:  rgb(243, 243, 37);
+  border: none;
+  border-radius: 25px;
+  padding: 4px 10px 4px 10px;
+  margin-right: 80px;
+  margin-left: 80px;
+  border: 3px solid blue;
+  transition: 0.3s;
+}
+
+.nav-btn:hover{
+   background-color: rgb(168, 168, 69);
+  
+}
+
+.nav-btn:active{
+   opacity: 0.3;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+
+.para1 {
+  font-size: 70px;
+  line-height: 1.2;
+}
+
+.para2 {
+  font-size: medium;
+  font-weight: 600;
+  width: 650px;
+  margin-left: 8%;
+}
+
+.btn-warning:active {
+  opacity: 0.7;
+}
+
+.text {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 5px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  padding: 0;
+  /* Removed excessive padding */
+}
+
+.link1 {
+  box-shadow: rgba(0, 0, 0, 0.5);
+  background-color: rgb(74, 245, 219);
+  transition: 0.3s;
+}
+
+.link1:hover {
+  background-color: rgb(213, 213, 8);
+}
+
+.link1:active {
+  opacity: 0.5;
+}
+
+.link1 a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.icon-img {
+  text-align: center;
+  cursor: pointer;
+}
+
+.properties a {
+  border-radius: 3px;
+  text-decoration: none;
+  color: rgb(48, 176, 48);
+  background-color: rgba(244, 237, 237, 0.904);
+  padding: 4px 6px;
+}
+
+.child {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.parent {
+  padding: 50px 15px;
+  /* Adjusted padding for responsiveness */
+}
+
+.our_properties {
+  padding-bottom: 50px;
+}
+
+.our_properties1 {
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.c-p {
+  color: #919493;
+  text-decoration: none;
+}
+
+.card {
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+}
+
+.P-card {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 10px;
+  margin: 80px;
+  /*Adjusted margins for responsiveness */
+}
+
+.anand {
+  background-color: rgb(20, 245, 245);
+  padding-bottom: 50px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.overlay:hover {
+   background-color: rgba(0, 0, 0, 0); 
+}
+
+.card:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.p-vid {
+  padding: 100px 15px 50px 0;
+  /* Adjusted padding for responsiveness */
+}
+
+.videos {
+  display: flex;
+  margin-bottom: 100px;
+
+}
+
+.house {
+  color: olive;
+  font-weight: 600;
+  padding-right: 90px;
+}
+
+.p-titles {
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+ .about-us{
+      display: flex;
+      overflow: hidden;
+      margin-bottom: 100px;
+    }
+    .list{
+      text-align: left;
+    }
+
+    .about-img{
+      padding-right: 50px;
+    }    
+
+ .touch {
+  position: relative; /* Set position to relative for the overlay */
+  height: 200px;
+  background-image: url(bg-img.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+
+.touch::before {
+  content: ''; /* Required for pseudo-element */
+  position: absolute; /* Position absolutely within the .touch container */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(199, 199, 34, 0.913); /* Black with 90% opacity */
+  z-index: 3; /* Ensure overlay is above the background image */
+}
+
+.texts0 {
+  position: relative; /* Position relative to place it above the overlay */
+  color: white; /* Text color */
+  z-index: 6; /* Ensure text is above the overlay */
+  text-align: center; /* Center the text */
+  padding-top: 70px; /* Add some padding to position the text */
+}
+
+.btn {
+  background-color: black; 
+  border: none;
+  transition: opacity 0.3s;
+}
+ 
+.btn:hover{
+  opacity: 0.8;
+}
+
+.btn:active{
+  opacity: 0.3;
+}
+
+ 
+
+.testimonial{
+  margin-top: 100px;
+} 
+
+
+.testimonial-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  
+}
+
+.testimonial-card:hover{
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.testimonial-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+} 
+
+.testimonial-card h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.testimonial-card p {
+  font-size: 20px;
+  color: #666;
+  text-align: left;
+}
+
+.testimonial-card .role {
+  color: #28a745;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+.blog-cards{
+  display: flex;
+  gap: 45px;
+  padding-left: 120px;
+  padding-right: 50px;
+  padding-top: 70px;
+  margin: 0;
+} 
+
+.contact-info{
+  margin-top: 100px;
+  height: 400px; 
+  background-color: rgb(9, 3, 46);
+  color: white;
+  display: flex;
+  gap: 100px;
+  padding: 80px 100px 0px 110px; 
+}  
+ 
+.contact-info a{
+  text-decoration: none;
+  color: white;
+} 
+
+.contact-info ul a{
+  width: 100px;
+  color: olive;
+}
+ 
